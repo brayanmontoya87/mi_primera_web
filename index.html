@@ -1,43 +1,92 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="script.js"></script>
+    <script src="script1.js"></script> 
 </head>
 <body>
-   <div class="titulo">
-   <h1>Hola esta es mi primera web</h1>
-   </div>
-   <div class="subtittle">
-     <h1><p> <strong>Nombre:</strong> Brayan Montoya. </h1><br>
-
-        <h1>Comprobación H1</h1>
-        <h2>Comprobación H2</h2>
-        <h3>Comprobación H3</h3>
-        <h4>Comprobación H4</h4>
-        <h5>Comprobación H5</h5>
-        <h6>Comprobación H6</h6>
     
-        <strong>¿Por qué y cómo llegaste a este curso?</strong> Para aprender de desarrollo web. <br>
+    <div class="container">
         
-        ¿Qué esperas del curso? R/<br>
-        ¿Tenías conocimientos previos? R/= <br>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="https://wwww.google.com/">Inicio</a></li>
+                    <li><a href="https://wwww.google.com/">Acerca de mi</a></li>
+                    <li><a href="https://wwww.google.com/">Trabajos</a></li>
+                    <li><a href="https://wwww.google.com/">Servicios</a></li>
+                    <li><a href="https://wwww.google.com/">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="Seccion-1">
+            
+                <div>
+                 <h2><strong>Acerca de mí</strong></h2>
+                 <p>Bienvenido a mi web</p>
+                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas explicabo, unde laborum dolor cumque excepturi architecto reiciendis, expedita id similique error doloribus animi. Tempora molestiae, minima adipisci quasi excepturi magni.
+                 </p>
+            </section>
+            <section class="Seccion-2">
+                 <div class="acerca-imagen">
+                   <img src="img/hero.jpeg" alt="imagen portada" />
+                   <h3>Hola... Soy Brayan Montoya y estoy en proceso de aprendizaje, desarrollando mi primera web.</h3>
+                 </div>
+                 <div class="acerca-imagen2">
+                <img src="img/carrusel.jpeg" alt="imagen portada" />
+                </div>
+            </section>
+    </div>
+        </main>
+
+        <footer class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+      
+            <form action="" method="get" class="formulario" id="form">
+              <div class="form-row">
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre" name="nombre" type="text" placeholder="nombre y apellido"/>
+              </div> 
+              <div class="form-row">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="pepitoperez@gmail.com"
+                    required
+                  />
+              </div>  
+              <div class="form-row">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje"></textarea>
+              </div>
+              <div class="form-row">
+                  <button>Enviar</button>
+              </div>
+              <p class="alertas" id="alertas"></p>
+            </form>
+          </footer>
         
-        Comparte el sueño que has pensado en el paso número 1</p>
-   </div>
-   <div class="order">
+       
+        <footer class="redes">
+        <h1><strong>Redes Sociales</strong></h1>
         <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
+            <li><strong>Facebook: </strong><a href="https://wwww.google.com/">Brayan Montoya</a></li>
+            <li><strong>Instagram: </strong>@bryanmontoya87</li>
+            <li><strong>X: </strong>@bryanmontoya87</li>
+            <li><strong>LinkedIn: </strong>Brayan Montoya U</li>
         </ul>
-        <ol>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-        </ol>
-   </div>    
+   
+        </footer>
+
+        
 </body>
 </html>
