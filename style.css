@@ -1,0 +1,22 @@
+.titulo { 
+        color: blue ;
+    text-align: center;
+    background-color: red;
+}
+
+.subtittle {
+            color: aquamarine;
+            text-align: center;
+            background-color: darkblue;
+}
+
+.order {
+       color: black;
+       text-align: left;
+       border: blue;
+       box-shadow: chartreuse;
+       background-color: blueviolet;
+}
+
+
+
